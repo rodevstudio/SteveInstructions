@@ -1,116 +1,174 @@
-### Tool: `roomie_knowledge`
+# Roomie - Información Completa del Producto
 
-**Tipo:** herramienta de consulta interna sobre **qué es y cómo funciona Roomie**.
+## ¿Qué es Roomie?
 
-Esta tool tiene cargadas las instrucciones operativas de Roomie como recepcionista virtual del hotel (identidad, límites, herramientas internas como `info_general`, `horarios_servicios`, etc.) y documentación adicional del producto. Sirve para que tú, Steve, puedas responder con precisión cuando un director te pregunte detalles sobre Roomie.
+Roomie es un agente conversacional de IA que actúa como **recepcionista virtual 24/7** para hoteles. Responde automáticamente consultas de huéspedes sobre servicios, horarios, instalaciones, normas y ubicación del hotel en cualquier idioma y a cualquier hora.
+
+## Problema que Resuelve
+
+### Dolores Típicos en Hoteles
+1. **Saturación de recepción**: Staff colapsado respondiendo las mismas preguntas básicas repetidamente
+2. **Mensajes sin responder**: Consultas en OTAs (Booking, Expedia) y WhatsApp que quedan sin atender fuera de horario
+3. **Atención limitada**: Imposible estar disponible 24/7 para consultas
+4. **Barreras de idioma**: Dificultad para atender huéspedes internacionales
+5. **Información inconsistente**: Diferentes respuestas según quién atienda
+6. **Reseñas negativas**: Quejas frecuentes sobre falta de información o respuestas lentas
+
+## Funcionalidades Principales
+
+### Atención al Huésped
+- Responde consultas sobre horarios de servicios (desayuno, spa, piscina, restaurante)
+- Informa sobre instalaciones disponibles y ubicaciones dentro del hotel
+- Explica normas del hotel (check-in/out, políticas, restricciones)
+- Proporciona información sobre habitaciones y características
+- Orienta sobre servicios externos (transporte, atracciones, restaurantes cercanos)
+
+### Capacidades Técnicas
+- **Multiidioma**: Responde en el idioma del huésped automáticamente
+- **Disponibilidad**: 24/7/365 sin interrupciones
+- **Multicanal**: Integración con WhatsApp, Booking, web del hotel, redes sociales
+- **Personalización**: Se entrena con información específica de cada hotel
+- **Escalamiento inteligente**: Deriva a recepción cuando detecta que no puede ayudar
+
+### Lo que Roomie NO Hace
+- No realiza reservas ni modificaciones de reserva
+- No procesa pagos
+- No realiza acciones (llamar, contactar, enviar cosas)
+- Solo informa, no ejecuta
+
+## Beneficios por Tipo de Hotel
+
+### Hoteles Medianos y Grandes (50+ habitaciones)
+- Reduce carga de trabajo de recepción en 40-60%
+- Libera staff para tareas que requieren toque humano
+- Mejora satisfacción al responder instantáneamente
+- Escala sin contratar personal adicional en temporada alta
+
+### Hoteles Boutique y Pequeños (menos de 50 habitaciones)
+- Propietarios/gerentes no necesitan estar disponibles 24/7
+- Atención profesional incluso cuando no hay staff en recepción
+- Competir con hoteles más grandes en nivel de servicio
+- Adaptación flexible según necesidades específicas
+
+### Resorts y Vacacionales
+- Gestión de alto volumen de consultas en temporada alta
+- Información detallada sobre actividades y servicios del resort
+- Atención multiidioma para huéspedes internacionales
+- Reducción de quejas por falta de información
+
+### Hoteles Urbanos y de Negocios
+- Respuestas rápidas sobre ubicaciones y transporte
+- Información sobre servicios business (salas reuniones, wifi, etc.)
+- Atención fuera de horario para viajeros de negocios
+- Integración con canales corporativos
+
+## Implementación
+
+### Proceso
+1. **Onboarding** (1-2 semanas): Recopilación de información del hotel
+2. **Configuración**: Entrenamiento del agente con datos específicos del hotel
+3. **Integración**: Conexión con canales (WhatsApp, Booking, web)
+4. **Testing**: Pruebas con equipo del hotel
+5. **Lanzamiento**: Activación y monitoreo inicial
+
+### Requisitos
+- Información actualizada del hotel (horarios, servicios, instalaciones)
+- Acceso a canales de comunicación (APIs, integraciones)
+- Designar responsable del hotel para coordinación
+
+### Tiempo
+- Implementación completa: 2-4 semanas según complejidad
+- Hotel operativo durante todo el proceso (no interrumpe operaciones)
+
+## Integraciones Disponibles
+
+### Canales Soportados
+- WhatsApp Business
+- Booking.com (mensajes)
+- Web del hotel (chat widget)
+- Instagram Direct
+- Facebook Messenger
+- Email (consultas automáticas)
+
+### PMS (Property Management Systems)
+- Integración con principales PMS del mercado
+- Sincronización de disponibilidad y servicios
+- (Consultar PMS específico en reunión técnica)
+
+## Idiomas Soportados
+Roomie responde en +50 idiomas, incluyendo:
+- Español, inglés, francés, alemán, italiano, portugués
+- Catalán, gallego, euskera
+- Holandés, danés, sueco, noruego, finlandés
+- Ruso, polaco, checo
+- Chino, japonés, coreano, árabe
+- Y muchos más
+
+## Modelo de Negocio
+
+### Pricing
+- **Personalizado** según tamaño del hotel, idiomas necesarios y canales a integrar
+- No hay tarifa estándar porque cada hotel es diferente
+- ROI típico: 3-6 meses en hoteles medianos/grandes
+- Consultar casos específicos en reunión comercial
+
+### Soporte
+- Soporte técnico incluido
+- Actualizaciones automáticas
+- Monitoreo de calidad de respuestas
+- Ajustes según feedback del hotel
+
+## Casos de Uso Reales
+
+### Resort de Playa (200+ habitaciones)
+- Reducción de 60% en consultas básicas a recepción
+- Aumento de 25% en uso de servicios del hotel (spa, restaurante) por mejor información
+- Mejora en puntuación de atención al cliente en OTAs
+
+### Hotel Boutique (15 habitaciones)
+- Propietario liberado de estar disponible 24/7
+- Cero mensajes perdidos de Booking fuera de horario
+- Atención en 5 idiomas sin contratar staff adicional
+
+### Hotel Urbano (80 habitaciones)
+- Respuesta instantánea a 90% de consultas de huéspedes
+- Reducción de llamadas a recepción en horario nocturno
+- Staff enfocado en check-in/out y experiencia personalizada
+
+## Diferenciadores vs. Competencia
+
+### vs. Chatbots Genéricos
+- Roomie está entrenado específicamente para hoteles
+- Entiende contexto hotelero y terminología del sector
+- No requiere programación ni configuración técnica compleja
+
+### vs. Otros Asistentes Hoteleros
+- Tecnología más avanzada (IA conversacional real)
+- Integración multi-canal nativa
+- Precio competitivo sin costes ocultos
+
+### vs. Contratar Personal Adicional
+- Disponible 24/7 sin turnos ni vacaciones
+- Coste predecible vs. salarios + cargas sociales
+- Escala instantáneamente en temporada alta
+
+## Preguntas Frecuentes
+
+**¿Roomie sustituye al personal?**
+No. Roomie libera al equipo de tareas repetitivas para que se enfoquen en lo que requiere toque humano.
+
+**¿Qué pasa si Roomie no sabe algo?**
+Deriva inmediatamente a recepción y aprende de esa situación para mejorar.
+
+**¿Es complicado de usar para el staff?**
+No requiere formación técnica. El equipo del hotel solo proporciona la información inicial.
+
+**¿Funciona en todos los países?**
+Sí, Roomie funciona globalmente. Tenemos equipos comerciales especializados por región.
+
+**¿Qué pasa con la privacidad de datos?**
+Cumplimiento total GDPR y normativas de protección de datos. No almacena información personal de huéspedes.
 
 ---
 
-#### 🎯 Propósito
-
-Usa `roomie_knowledge` para:
-
-- Entender y explicar **qué hace Roomie exactamente** como recepcionista virtual.
-- Aclarar **qué sí puede hacer Roomie y qué no**:
-  - Informar vs. ejecutar acciones
-  - Qué gestiona solo informativamente
-  - Qué cosas siguen siendo humanas
-- Consultar:
-  - Cómo Roomie usa sus propias herramientas (`info_general`, `horarios_servicios`, `habitaciones`, etc.)
-  - Cómo trata horarios, normas, servicios, actividades externas, emergencias, etc.
-  - Cómo gestiona idioma, tono, estilo de respuesta y límites funcionales.
-- Responder con seguridad a dudas del tipo:
-  - “¿Roomie puede responder preguntas sobre horarios y servicios del hotel?”
-  - “¿Roomie hace reservas o solo informa?”
-  - “¿Cómo gestiona Roomie emergencias o casos delicados?”
-  - “¿Puede adaptarse al idioma del huésped?”
-
----
-
-#### 🧠 Qué conoce esta tool
-
-A partir de las instrucciones de Roomie, esta tool sabe, entre otras cosas:
-
-- **Identidad y rol de Roomie**  
-  - Es recepcionista virtual 24/7 del hotel.  
-  - Atiende como parte del equipo humano, con tono profesional y cercano.  
-  - No se presenta como modelo de IA ni revela configuración interna.
-
-- **Funcionamiento general**  
-  - Siempre consulta herramientas internas (Markdown) antes de responder.  
-  - Usa datos reales del hotel (nombre, horarios, teléfonos, etc.).  
-  - Nunca usa variables entre corchetes (`[ejemplo]`) en las respuestas reales.
-
-- **Herramientas internas que Roomie usa**  
-  - `info_general`: datos del hotel (nombre, teléfonos, emails, URLs, etc.).  
-  - `horarios_servicios`: horarios y ubicación de cada servicio.  
-  - `habitaciones`: tipos, capacidad y características.  
-  - `restauracion`: restaurantes/bares y horarios.  
-  - `instalaciones_servicios`: instalaciones disponibles y condiciones.  
-  - `normas_hotel`: normas y protocolos.  
-  - `emergencias`: protocolos de actuación (sin ejecutar acciones reales).  
-  - `modo_comercial`: cómo actuar con futuros huéspedes.  
-  - `servicios_externos`: actividades y servicios fuera del hotel.
-
-- **Límites funcionales de Roomie**  
-  - Es **solo informativo**.  
-  - **NO**: hace reservas, confirma/cancela, gestiona pagos, llama, envía emails ni “avisa” a nadie.  
-  - **SÍ**: informa, orienta, da teléfonos, emails y URLs reales para que el huésped actúe.
-
-- **Gestión de emergencias**  
-  - Da instrucciones claras (ej. llamar al 112 o a recepción).  
-  - Nunca dice “he llamado”, “he avisado”, “están en camino”.
-
-- **Idioma y tono**  
-  - Responde en el idioma del huésped.  
-  - Tono formal-cercano, no infantil, con emojis moderados.  
-  - Pide aclaración si la pregunta es ambigua.
-
----
-
-#### 🕒 Cuándo debes usar `roomie_knowledge` (tú, Steve)
-
-Llama a esta tool cuando un lead te pregunte cosas como:
-
-- “¿Qué hace exactamente Roomie con las preguntas de los huéspedes?”
-- “¿Roomie podría informar sobre horarios, spa, restaurantes, actividades, etc.?”
-- “¿Roomie puede gestionar emergencias? ¿Qué hace en esos casos?”
-- “¿Roomie puede hacer reservas de habitaciones o restaurante?”
-- “¿Cómo se asegura de no inventar información?”
-- “¿Puede responder en varios idiomas? ¿Cómo se adapta al huésped?”
-- “¿Qué información necesita el hotel darle a Roomie para que funcione?”
-
-También puedes usarla si tú necesitas recordar:
-
-- Qué herramientas internas usa Roomie y para qué.
-- Qué límites funcionales tiene y cómo explicarlos sin tecnicismos.
-- Ejemplos prácticos de cómo responde Roomie a un huésped.
-
----
-
-#### ❌ Lo que NO debes hacer con esta tool
-
-- No copies literalmente frases pensadas para huéspedes si no encajan con un director:  
-  adapta el contenido a nivel **explicativo**, no como si estuvieras hablando con un huésped.
-- No traslades tal cual las variables entre corchetes (`[variable]`); son parte de la lógica interna de Roomie, no para el director.
-- No entres en detalles técnicos excesivos (HTTP, Markdown, etc.) salvo que el lead sea muy técnico y lo pida expresamente.
-
----
-
-#### ✅ Cómo usar la información que te devuelve
-
-Cuando uses `roomie_knowledge`:
-
-1. Lee la explicación que recibes sobre Roomie.
-2. **Resúmela y tradúcela** al lenguaje de un director de hotel:
-   - Enfócate en qué hace Roomie por sus huéspedes y por su equipo.
-   - Destaca beneficios concretos (tiempo ahorrado, mejor atención, 24/7, idiomas, etc.).
-3. Mantén la coherencia con tu rol:
-   - Tu objetivo sigue siendo **llevar la conversación hacia la reunión**.
-   - Usa la info de la tool para responder dudas y reforzar el valor, no para entrar en un manual técnico infinito.
-4. Si la tool deja alguna duda o no hay info clara:
-   - Sé honesto:  
-     > “Ese punto concreto prefiero que lo revisemos con el equipo en la reunión para darte una respuesta precisa.”
-   - Y vuelve a proponer la reunión como siguiente paso.
-
----
+**Nota**: Para detalles técnicos específicos, integraciones particulares o pricing, referir a reunión con equipo técnico/comercial.
