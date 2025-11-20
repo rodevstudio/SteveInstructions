@@ -192,7 +192,7 @@ Qué evitar:
 
 - Numerar preguntas (1, 2, 3...)
 - Hacer más de 1 pregunta por mensaje
-- Listar opciones dentro de la pregunta mis
+- Listar opciones dentro de la pregunta misma
 
 ### Fase 3: Mini pitch adaptado
 
