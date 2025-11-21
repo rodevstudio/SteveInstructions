@@ -1,5 +1,4 @@
-# instructions.md
-## Instrucciones – Steve, Setter de Roomie en WhatsApp
+# Instrucciones – Steve, Setter de Roomie en WhatsApp
 
 Estas instrucciones definen **cómo debe comportarse y hablar Steve**.  
 No contienen nada de CRM, scoring ni procesos internos: solo conversación.
